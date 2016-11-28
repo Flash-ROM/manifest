@@ -76,9 +76,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="mdalexca/arm-linux-androideabi-5.x" remote="bitbucket" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" name="mdalexca/sdclang-3.8" remote="bitbucket" revision="master" />
 
-  <!-- Prebuilt Ninja -->
-  <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja" groups="linux,pdk,tradefed" remote="flash" revision="n7.1" />
-
   <!-- Prebuilt ccache -->
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="flash" revision="n7.1" />
 

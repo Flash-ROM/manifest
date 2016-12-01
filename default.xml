@@ -35,9 +35,9 @@
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="flash" revision="n7.1" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="flash" revision="n7.1" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="flash" revision="n7.1" />
-  <project path="kernel/huawei/angler" name="Flash-Kernel/angler" groups="device,angler,broadcom_pdk" remote="github" revision="personal" />
-  <project path="kernel/lge/bullhead" name="Flash-Kernel/bullhead" groups="device,bullhead" remote="github" revision="release"  />
-  <project path="kernel/moto/shamu" name="Flash-Kernel/shamu" groups="device,shamu,broadcom_pdk" remote="github" revision="release" />
+  <project path="kernel/huawei/angler" name="Flash-Kernel/angler" groups="device,angler,broadcom_pdk" remote="github" revision="personal-7.0" />
+  <project path="kernel/lge/bullhead" name="Flash-Kernel/bullhead" groups="device,bullhead" remote="github" revision="release-7.0"  />
+  <project path="kernel/moto/shamu" name="Flash-Kernel/shamu" groups="device,shamu,broadcom_pdk" remote="github" revision="release-7.0" />
   <project path="libcore" name="libcore" groups="pdk" remote="flash" revision="n7.1" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="flash" revision="n7.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="flash" revision="n7.1" />

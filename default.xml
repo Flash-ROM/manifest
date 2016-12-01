@@ -65,15 +65,14 @@
   <project path="vendor/moto" name="vendor_moto" remote="flash" revision="n7.1" />
 
   <!-- Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel-linaro" name="mdalexca/aarch64-linux-android-6.x-kernel-linaro" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-linaro" name="mdalexca/arm-eabi-6.x-linaro" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="mdalexca/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x" name="mdalexca/aarch64-linux-android-5.x-kernel" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x-kernel" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x" name="mdalexca/aarch64-linux-android-5.x" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="mdalexca/arm-eabi-6.x" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="mdalexca/arm-linux-androideabi-5.x" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="mdalexca/arm-linux-androideabi-6.x" remote="bitbucket" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" name="mdalexca/sdclang-3.8" remote="bitbucket" revision="master" />
 
   <!-- Prebuilt ccache -->

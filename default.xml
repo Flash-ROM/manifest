@@ -29,6 +29,7 @@
   <project path="external/busybox" name="external_busybox" remote="flash" revision="n7.1" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="flash" revision="n7.1" />
   <project path="external/DUtils" name="external_DUtils" remote="flash" revision="n7.1" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="flash" revision="n7.1" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="flash" revision="n7.1" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="flash" revision="n7.1" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="flash" revision="n7.1" />
@@ -160,7 +161,6 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />

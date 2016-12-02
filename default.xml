@@ -27,6 +27,7 @@
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="flash" revision="n7.1" />
   <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="flash" revision="n7.1" />
   <project path="external/busybox" name="external_busybox" remote="flash" revision="n7.1" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="flash" revision="n7.1" />
   <project path="external/DUtils" name="external_DUtils" remote="flash" revision="n7.1" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="flash" revision="n7.1" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="flash" revision="n7.1" />
@@ -59,6 +60,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="flash" revision="n7.1" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="flash" revision="n7.1" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="flash" revision="n7.1" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="flash" revision="n7.1" />
   <project path="vendor/flash" name="vendor_flash" remote="flash" revision="n7.1" />
   <project path="vendor/huawei" name="vendor_huawei" remote="flash" revision="n7.1" />
   <project path="vendor/lge" name="vendor_lge" remote="flash" revision="n7.1" />
@@ -130,7 +132,6 @@
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" />
@@ -511,7 +512,6 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />

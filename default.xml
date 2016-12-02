@@ -48,7 +48,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="flash" revision="n7.1" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flash" revision="n7.1" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk-fs" remote="flash" revision="n7.1" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="nicholaschum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" groups="pdk-fs" remote="flash" revision="n7.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="flash" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs"  remote="flash" revision="n7.1" />

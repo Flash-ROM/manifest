@@ -30,7 +30,7 @@
    <project path="bootable/recovery" name="bootable_recovery" remote="flash-gh" />
    <project path="device/huawei/angler" name="device_huawei_angler" remote="flash-gh" />
    <project path="device/lge/bullhead" name="device_lge_bullhead" remote="flash-gh" />
-   <project path="device/moto/shamu" name="device_moto_shamu" remote="flash-gh" revision="n7.0" />
+   <project path="device/moto/shamu" name="device_moto_shamu" remote="flash-gh" />
    <project path="external/busybox" name="external_busybox" remote="flash-gh" />
    <project path="external/clang" name="external_clang" remote="flash-gh" />
    <project path="external/compiler-rt" name="external_compiler-rt" remote="flash-gh" />
@@ -55,7 +55,7 @@
    <project path="hardware/qcom/display" name="hardware_qcom_display" remote="flash-gh" />
    <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="flash-gh" />
    <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="flash-gh"  />
-   <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="flash-gh" revision="n7.0" />
+   <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="flash-gh" />
    <project path="libcore" name="libcore" remote="flash-gh" />
    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="flash-gh" />
    <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="flash-gh" />
@@ -90,7 +90,7 @@
    <project path="vendor/flash" name="vendor_flash" remote="flash-gh" />
    <project path="vendor/huawei" name="vendor_huawei" remote="flash-gh" />
    <project path="vendor/lge" name="vendor_lge" remote="flash-gh" />
-   <project path="vendor/moto" name="vendor_moto" remote="flash-gh" revision="n7.0" />
+   <project path="vendor/moto" name="vendor_moto" remote="flash-gh" />
    <project path="vendor/prebuilt" name="vendor_prebuilt" remote="flash-gh" />
 
    <!-- GApps -->

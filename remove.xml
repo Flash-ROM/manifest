@@ -57,6 +57,7 @@
    <remove-project name="platform/external/pdfium" />
    <remove-project name="platform/external/skia" />
    <remove-project name="platform/external/sqlite" />
+   <remove-project name="platform/external/v8" />
    <remove-project name="platform/external/zlib" />
    <remove-project name="platform/frameworks/av" />
    <remove-project name="platform/frameworks/base" />

@@ -1,7 +1,6 @@
 # Flash ROM Manifest
 
-Hello all, this is my ROM primarily for the Nexus 6P (angler) but also building for the Nexus 5X (bullhead) and Nexus 6 (shamu). I will not be sharing this publicly (and I expect you not to as well, see 
-below) but here is how to build it.
+Hello all, this is my ROM primarily for the Nexus 6P (angler). I will not be sharing this publicly (and I expect you not to as well, see below) but here is how to build it.
 
 ## Configure your Linux environment for building
 
@@ -25,18 +24,15 @@ source build/envsetup.sh
 ## Start building 
 
 ```
-breakfast <device_codename>
+breakfast angler
 mka bacon
 ```
-If all goes well, you will have a zip in out/target/product/<device_codename> when it's done!
+If all goes well, you will have a zip in out/target/product/angler when it's done!
 
 ## Some notes
 
-1. I do not give anyone permission to share their builds to a site like XDA or Devs-Base. If you do so, I will have it removed in accordance with their rules. I also do not give anyone permission to use 
-this as a base for their own ROM.
-2. I do not provide any support for this. If you build or someone gives you a build, you will receive no assistance from me. If something isn't working, it's most likely something I will fix in due 
-time and if not, it's something with your setup. This is something I do in my free time for me outside of the constraints of users and this is tailored for me, nobody else, which is why it isn't being 
-released publicly.
+1. I do not give anyone permission to share their builds to a site like XDA or Devs-Base. If you do so, I will have it removed in accordance with their rules. I also do not give anyone permission to use this as a base for their own ROM.
+2. I do not provide any support for this. If you build or someone gives you a build, you will receive no assistance from me. If something isn't working, it's most likely something I will fix in due time and if not, it's something with your setup. This is something I do in my free time for me outside of the constraints of users and this is tailored for me, nobody else, which is why it isn't being released publicly.
 3. Please do not ask me for builds, I will just ignore the PMs.
 
 I apologize if this sounds overly aggressive but I do what I do for me, nobody else.

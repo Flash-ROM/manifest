@@ -48,6 +48,7 @@
    <remove-project name="platform/external/compiler-rt" />
    <remove-project name="platform/external/f2fs-tools" />
    <remove-project name="platform/external/ims" />
+   <remove-project name="platform/external/jemalloc" />
    <remove-project name="platform/external/libjpeg-turbo" />
    <remove-project name="platform/external/libpng" />
    <remove-project name="platform/external/libxml2" />

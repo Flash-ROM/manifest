@@ -29,7 +29,6 @@
    <project path="bionic" name="bionic" remote="flash-gh" />
    <project path="bootable/recovery" name="bootable_recovery" remote="flash-gh" />
    <project path="device/huawei/angler" name="device_huawei_angler" remote="flash-gh" />
-   <project path="external/busybox" name="external_busybox" remote="flash-gh" />
    <project path="external/clang" name="external_clang" remote="flash-gh" />
    <project path="external/compiler-rt" name="external_compiler-rt" remote="flash-gh" />
    <project path="external/DUtils" name="external_DUtils" remote="flash-gh" />

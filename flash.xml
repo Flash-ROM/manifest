@@ -66,6 +66,7 @@
    <project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="flash-gh" />
    <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="flash-gh" />
    <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="flash-gh" />
+   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="flash-gh" />
    <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="flash-gh" />
    <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="flash-gh" />
    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flash-gh" />

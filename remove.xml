@@ -43,7 +43,6 @@
    <remove-project name="device/linaro/hikey-kernel" />
    <remove-project name="device/moto/shamu" />
    <remove-project name="device/moto/shamu-kernel" />
-   <remove-project name="device/sample" />
    <remove-project name="platform/external/clang" />
    <remove-project name="platform/external/compiler-rt" />
    <remove-project name="platform/external/f2fs-tools" />

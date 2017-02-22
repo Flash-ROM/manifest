@@ -1,6 +1,6 @@
 # Flash ROM Manifest
 
-Hello all, this is my ROM primarily for the Nexus 6P (angler). I will not be sharing this publicly (and I expect you not to as well, see below) but here is how to build it.
+Hello all, this is my ROM primarily for the Nexus 6P (angler) but also buildale for the Nexus 6 (shamu). I will not be sharing this publicly (and I expect you not to as well, see below) but here is how to build it.
 
 ## Configure your Linux environment for building
 
@@ -24,10 +24,17 @@ source build/envsetup.sh
 ## Start building 
 
 ```
-breakfast angler
+breakfast <device>
 mka bacon
 ```
-If all goes well, you will have a zip in out/target/product/angler when it's done!
+If all goes well, you will have a zip in out/target/product/<device> when it's done!
+
+## Configuring options
+
++ `export HAS_GAPPS=false`: Do not build Open GApps into the ROM zip
++ `export HAS_SUBSTRATUM=false`: Do not include a Substratum prebuilt
++ `export HAS_ROOT=false`: Do not include root (Magisk)
++ `export HAS_ROUNDICONS=true`: Include the round icons APK (only needed if building with GApps)
 
 ## Some notes
 

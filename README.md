@@ -70,8 +70,10 @@ Step 2. Open the manifest file in a text editor or nano and add this to it:
    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bitbucket" revision="master" />
    <remove-project name="arm-linux-androideabi-6.x" />
    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bitbucket" revision="master" />
+   <remove-project name="arm-eabi-6.x" />
+   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bitbucket" revision="master" />
    <remove-project name="clang_linux-x86_3.9.1" />
-   <project path="prebuilts/clang/host/linux-x86/3.9.1" name="uberroms/clang_linux-x86_3.9.1" remote="bitbucket" revision="master" />
+   <project path="prebuilts/clang/host/linux-x86/3.9.1" name="uberroms/clang_linux-x86_3.x" remote="bitbucket" revision="master" />
 </manifest>
 ```
 

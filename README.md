@@ -25,7 +25,7 @@ source build/envsetup.sh
 
 ```
 breakfast <device>
-mka bacon
+mka flash
 ```
 If all goes well, you will have a zip in out/target/product/<device> when it's done!
 

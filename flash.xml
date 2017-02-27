@@ -80,6 +80,7 @@
    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="arm-eabi-6.x" remote="flash-gl" />
    <project path="prebuilts/clang/host/linux-x86/3.9.1" name="clang_linux-x86_3.9.1" remote="flash-gl" />
    <project path="prebuilts/clang/host/linux-x86/4.0.0" name="clang_linux-x86_4.0.0" remote="flash-gl" />
+   <project path="prebuilts/clang/host/linux-x86/5.0.0" name="clang_linux-x86_5.0.0" remote="flash-gl" />
    <project path="prebuilts/misc" name="prebuilts_misc" remote="flash-gh" />
    <project path="prebuilts/sdk" name="prebuilts_sdk" remote="flash-gh"/>
    <project path="system/core" name="system_core" remote="flash-gh" />

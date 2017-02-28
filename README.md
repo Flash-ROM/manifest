@@ -74,6 +74,10 @@ Step 2. Open the manifest file in a text editor or nano and add this to it:
    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bitbucket" revision="master" />
    <remove-project name="clang_linux-x86_3.9.1" />
    <project path="prebuilts/clang/host/linux-x86/3.9.1" name="uberroms/clang_linux-x86_3.x" remote="bitbucket" revision="master" />
+   <remove-project name="clang_linux-x86_4.0.0" />
+   <project path="prebuilts/clang/host/linux-x86/4.0.0" name="uberroms/clang_linux-x86_4.x" remote="bitbucket" revision="master" />
+   <remove-project name="clang_linux-x86_5.0.0" />
+   <project path="prebuilts/clang/host/linux-x86/5.0.0" name="uberroms/clang_linux-x86_5.x" remote="bitbucket" revision="master" />
 </manifest>
 ```
 

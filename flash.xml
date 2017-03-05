@@ -64,13 +64,13 @@
    <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flash-gh" />
    <project path="packages/apps/FlashSettings" name="packages_apps_FlashSettings" remote="flash-gh" />
    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flash-gh" />
-   <project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="flash-gh" />
    <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="flash-gh" />
    <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="flash-gh" />
    <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="flash-gh" />
    <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="flash-gh" />
    <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="flash-gh" />
    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flash-gh" />
+   <project path="packages/apps/ThemeInterfacer" name="packages_apps_ThemeInterfacer" remote="flash-gh" />
    <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="flash-gh" />
    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flash-gh" />
    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="flash-gh" />

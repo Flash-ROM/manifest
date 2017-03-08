@@ -53,7 +53,7 @@
    <project path="frameworks/rs" name="frameworks_rs" remote="flash-gh" />
    <project path="frameworks/support" name="frameworks_support" remote="flash-gh" />
    <project path="hardware/qcom/display" name="hardware_qcom_display" remote="flash-gh" />
-   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="flash-gh" />
+   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="flash-gh" revision="n7.1.1-flash" />
    <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="flash-gh" />
    <project path="libcore" name="libcore" remote="flash-gh" />
    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="flash-gh" />

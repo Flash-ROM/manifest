@@ -72,6 +72,7 @@
    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flash-gh" />
    <project path="packages/apps/ThemeInterfacer" name="packages_apps_ThemeInterfacer" remote="flash-gh" />
    <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="flash-gh" />
+   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="flash-gh" />
    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flash-gh" />
    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="flash-gh" />
    <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="flash-gh" />

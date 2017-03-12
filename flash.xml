@@ -6,10 +6,10 @@
             fetch="https://github.com/" />
    <remote  name="flash-gh"
             revision="n7.1.1"
-            fetch="https://github.com/Flash-ROM/" />
+            fetch="ssh://git@github.com/Flash-ROM/" />
    <remote  name="flash-gl"
             revision="n7.1.1"
-            fetch="https://gitlab.com/Flash-ROM/" />
+            fetch="ssh://git@gitlab.com/Flash-ROM/" />
    <remote  name="opengapps"
             revision="master"
             fetch="https://github.com/opengapps/" />

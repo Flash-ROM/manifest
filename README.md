@@ -8,10 +8,15 @@ Use my guide [here](https://github.com/nathanchance/Android-Tools/blob/master/Gu
 
 ## Sync down the repo
 
+You'll need SSH keys setup and added to your account for this on both Github and Gitlab:
+https://help.github.com/articles/connecting-to-github-with-ssh/
+
+https://docs.gitlab.com/ce/ssh/README.html
+
 ```
 mkdir <working_dir>
 cd <working_dir>
-repo init -u https://github.com/Flash-ROM/manifest.git -b n7.1.1
+repo init -u git@github.com:Flash-ROM/manifest.git -b n7.1.1
 repo sync --force-sync
 ```
 

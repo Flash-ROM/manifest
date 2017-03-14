@@ -91,7 +91,6 @@
    <project path="vendor/flash" name="vendor_flash" remote="flash-gh" />
    <project path="vendor/huawei" name="vendor_huawei" remote="flash-gh" />
    <project path="vendor/moto" name="vendor_moto" remote="flash-gh" />
-   <project path="vendor/prebuilt" name="vendor_prebuilt" remote="flash-gh" />
 
    <!-- GApps -->
    <project path="vendor/google/build" name="aosp_build" remote="opengapps" />

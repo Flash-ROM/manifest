@@ -1,6 +1,6 @@
 # Flash ROM Manifest
 
-Hello all, this is my ROM primarily for the Nexus 6P (angler) but also buildale for the Nexus 6 (shamu). I will not be sharing this publicly (and I expect you not to as well, see below) but here is how to build it.
+Hello all, this is my ROM primarily for the Nexus 6P (angler) but also buildable for the Nexus 6 (shamu). I will not be sharing this publicly (and I expect you not to as well, see below) but here is how to build it.
 
 ## Configure your Linux environment for building
 
@@ -69,20 +69,18 @@ Step 2. Open the manifest file in a text editor or nano and add this to it:
    <remote  name="bitbucket"
             fetch="https://bitbucket.org/" />
 
-   <remove-project name="external_compiler-rt" />
-   <project path="external/compiler-rt" name="UBERROMS/external_compiler-rt" groups="pdk" remote="github" revision="master" />
    <remove-project name="aarch64-linux-android-6.x" />
    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bitbucket" revision="master" />
    <remove-project name="arm-linux-androideabi-6.x" />
    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bitbucket" revision="master" />
    <remove-project name="arm-eabi-6.x" />
    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="DespairFactor/arm-eabi-6.x" remote="bitbucket" revision="master" />
-   <remove-project name="clang_linux-x86_3.9.1" />
-   <project path="prebuilts/clang/host/linux-x86/3.9.1" name="uberroms/clang_linux-x86_3.x" remote="bitbucket" revision="master" />
-   <remove-project name="clang_linux-x86_4.0.0" />
-   <project path="prebuilts/clang/host/linux-x86/4.0.0" name="uberroms/clang_linux-x86_4.x" remote="bitbucket" revision="master" />
-   <remove-project name="clang_linux-x86_5.0.0" />
-   <project path="prebuilts/clang/host/linux-x86/5.0.0" name="uberroms/clang_linux-x86_5.x" remote="bitbucket" revision="master" />
+   <remove-project name="clang_linux-x86_3.9.x" />
+   <project path="prebuilts/clang/host/linux-x86/3.9.x" name="uberroms/clang_linux-x86_3.x" remote="bitbucket" revision="master" />
+   <remove-project name="clang_linux-x86_4.0.x" />
+   <project path="prebuilts/clang/host/linux-x86/4.0.x" name="uberroms/clang_linux-x86_4.x" remote="bitbucket" revision="master" />
+   <remove-project name="clang_linux-x86_5.0.x" />
+   <project path="prebuilts/clang/host/linux-x86/5.0.x" name="uberroms/clang_linux-x86_5.x" remote="bitbucket" revision="master" />
 </manifest>
 ```
 

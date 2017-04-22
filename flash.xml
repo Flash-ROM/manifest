@@ -70,11 +70,11 @@
    <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="flash-gh" />
    <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="flash-gh" />
    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flash-gh" />
-   <project path="packages/apps/ThemeInterfacer" name="packages_apps_ThemeInterfacer" remote="flash-gh" />
    <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="flash-gh" />
    <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="flash-gh" />
    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flash-gh" />
    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="flash-gh" />
+   <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="flash-gh" revision="n7.1.2-binder" />
    <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="flash-gh" />
    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aarch64-linux-android-6.x" remote="flash-gl" />
    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="arm-linux-androideabi-6.x" remote="flash-gl" />

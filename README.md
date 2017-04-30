@@ -40,6 +40,7 @@ If all goes well, you will have a zip in out/target/product/<device> when it's d
 + `export HAS_SUBSTRATUM=false`: Do not include a Substratum prebuilt
 + `export HAS_ROOT=false`: Do not include root (Magisk)
 + `export HAS_ROUNDICONS=true`: Include the round icons APK (only needed if building with GApps)
++ `export HAS_ENFORCING=true`: Set SELinux to enforcing rather than permissive on boot
 
 ## Some notes
 

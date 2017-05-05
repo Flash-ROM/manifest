@@ -61,6 +61,7 @@
    <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="flash-gh" />
    <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="flash-gh" />
    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="flash-gh" />
+   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="flash-gh" />
    <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flash-gh" />
    <project path="packages/apps/FlashSettings" name="packages_apps_FlashSettings" remote="flash-gh" />
    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flash-gh" />
@@ -86,6 +87,7 @@
    <project path="prebuilts/sdk" name="prebuilts_sdk" remote="flash-gh"/>
    <project path="system/core" name="system_core" remote="flash-gh" />
    <project path="system/extras" name="system_extras" remote="flash-gh" />
+   <project path="system/media" name="system_media" remote="flash-gh" />
    <project path="system/sepolicy" name="system_sepolicy" remote="flash-gh" />
    <project path="system/vold" name="system_vold" remote="flash-gh" />
    <project path="vendor/flash" name="vendor_flash" remote="flash-gh" />
